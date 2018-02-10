@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estismail post notification v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-08-23 14:56:34+0000\n"
+"Last-Translator: root <treardog1@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: estismail-post-notification.php:0
+#@ estismail-pn-translate
+msgid "Estismail post notification"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: estismail-post-notification.php:0
+#@ estismail-pn-translate
+msgid "https://estismail.com"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: estismail-post-notification.php:0
+#@ estismail-pn-translate
+msgid "Send posts to subscribers email"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: estismail-post-notification.php:0
+#@ estismail-pn-translate
+msgid "Estismail"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: estismail-post-notification.php:0
+#@ estismail-pn-translate
+msgid "1.0"
+msgstr ""
+
+#: estismail-post-notification.php:14
+#@ estis_pn_translate
+msgid "please, update the WordPress to use our plugin"
+msgstr ""
+
+#: functions.php:49
+#@ estis_pn_translate
+msgid "Invalid sender_email_id. Specified sender_email_id did not found"
+msgstr ""
+
+#: functions.php:52
+#@ estis_pn_translate
+msgid "You do not have default email. Please add new sender_email"
+msgstr ""
+
+#: functions.php:55
+#@ estis_pn_translate
+msgid "Invalid maket_id. Specified maket_id did not found"
+msgstr ""
+
+#: functions.php:58
+#@ estis_pn_translate
+msgid "Empty included lists"
+msgstr ""
+
+#: functions.php:61
+#@ estis_pn_translate
+msgid "No active emails in selected lists"
+msgstr ""
+
+#: functions.php:64
+#@ estis_pn_translate
+msgid "Processing error. Please contact with support service of Estismail support@estismail.com"
+msgstr ""
+
+#: functions.php:67
+#@ estis_pn_translate
+msgid "Some error with saving letter. Please try again"
+msgstr ""
+
+#: functions.php:70
+#@ estis_pn_translate
+msgid "Can not save send. Please try again"
+msgstr ""
+
+#: include/list-settings.php:59
+#@ estis_pn_translate
+msgid "Please, write a SendMail theme"
+msgstr ""
+
+#: include/list-settings.php:66
+#@ estis_pn_translate
+msgid "Selected post missed"
+msgstr ""
+
+#: include/list-settings.php:69
+#@ estis_pn_translate
+msgid "You should have at least one post"
+msgstr ""
+
+#: include/list-settings.php:79
+#@ estis_pn_translate
+msgid "Invalid date value"
+msgstr ""
+
+#: include/list-settings.php:86
+#@ estis_pn_translate
+msgid "No template"
+msgstr ""
+
+#: include/list-settings.php:100
+#@ estis_pn_translate
+msgid "Empty lists"
+msgstr ""
+
+#: include/list-settings.php:113
+#@ estis_pn_translate
+msgid "Icluded lists are the same, as Excluded lists"
+msgstr ""
+
+#: include/list-settings.php:119
+#@ estis_pn_translate
+msgid "Template missing"
+msgstr ""
+
+#: include/list-settings.php:148
+#@ estis_pn_translate
+msgid "Maket was uploaded"
+msgstr ""
+
+#: include/list-settings.php:154
+#@ estis_pn_translate
+msgid "Maket uploading was failed"
+msgstr ""
+
+#: include/list-settings.php:185
+#@ estis_pn_translate
+msgid "Send was successfully created"
+msgstr ""
+
+#: include/list-settings.php:244
+#@ estis_pn_translate
+msgid "Please, use valid api key"
+msgstr ""
+
+#: include/list-settings.php:258
+#@ estis_pn_translate
+msgid "Estismail Sends-create constructor"
+msgstr ""
+
+#: include/list-settings.php:269
+#@ estis_pn_translate
+msgid "Mail theme"
+msgstr ""
+
+#: include/list-settings.php:270
+#@ estis_pn_translate
+msgid "Write your SendMail theme"
+msgstr ""
+
+#: include/list-settings.php:273
+#@ estis_pn_translate
+msgid "mail theme"
+msgstr ""
+
+#: include/list-settings.php:278
+#@ estis_pn_translate
+msgid "Posts"
+msgstr ""
+
+#: include/list-settings.php:279
+#@ estis_pn_translate
+msgid "Select your post"
+msgstr ""
+
+#: include/list-settings.php:291
+#@ estis_pn_translate
+msgid "No posts"
+msgstr ""
+
+#: include/list-settings.php:297
+#@ estis_pn_translate
+msgid "Template"
+msgstr ""
+
+#: include/list-settings.php:298
+#@ estis_pn_translate
+msgid "Select your template"
+msgstr ""
+
+#: include/list-settings.php:307
+#@ estis_pn_translate
+msgid "No Templates"
+msgstr ""
+
+#: include/list-settings.php:313
+#@ estis_pn_translate
+msgid "Subscriber Email"
+msgstr ""
+
+#: include/list-settings.php:314
+#@ estis_pn_translate
+msgid "Select your Subscriber Email"
+msgstr ""
+
+#: include/list-settings.php:325
+#@ estis_pn_translate
+msgid "No sender emails"
+msgstr ""
+
+#: include/list-settings.php:331
+#: include/list-settings.php:332
+#@ estis_pn_translate
+msgid "Select your list"
+msgstr ""
+
+#: include/list-settings.php:337
+#: include/list-settings.php:347
+#@ estis_pn_translate
+msgid "select all"
+msgstr ""
+
+#: include/list-settings.php:338
+#: include/list-settings.php:348
+#@ estis_pn_translate
+msgid "deselect all"
+msgstr ""
+
+#: include/list-settings.php:358
+#@ estis_pn_translate
+msgid "No lists"
+msgstr ""
+
+#: include/list-settings.php:364
+#@ estis_pn_translate
+msgid "Date"
+msgstr ""
+
+#: include/list-settings.php:365
+#@ estis_pn_translate
+msgid "Choose date &amp; time to your send"
+msgstr ""
+
+#: include/list-settings.php:367
+#@ estis_pn_translate
+msgid "now"
+msgstr ""
+
+#: include/list-settings.php:371
+#@ estis_pn_translate
+msgid "Send Email"
+msgstr ""
+
+#: include/plugin-settings.php:34
+#@ estis_pn_translate
+msgid "Not connected"
+msgstr ""
+
+#: include/plugin-settings.php:39
+#@ estis_pn_translate
+msgid "Invalid API key"
+msgstr ""
+
+#: include/plugin-settings.php:44
+#@ estis_pn_translate
+msgid "Connected"
+msgstr ""
+
+#: include/plugin-settings.php:56
+#@ estis_pn_translate
+msgid "API connection"
+msgstr ""
+
+#: include/plugin-settings.php:63
+#@ estis_pn_translate
+msgid "Please, enter your API key"
+msgstr ""
+
+#: include/plugin-settings.php:68
+#@ estis_pn_translate
+msgid "Connect"
+msgstr ""
+
+#: include/plugin-settings.php:71
+#@ estis_pn_translate
+msgid "Get your API key"
+msgstr ""
+
+#: include/plugin-settings.php:73
+#@ estis_pn_translate
+msgid "ReadMe"
+msgstr ""
+
+#: templates/templates-add.php:18
+#: templates/templates-edit.php:28
+#@ estis_pn_translate
+msgid "Please enter template heading."
+msgstr ""
+
+#: templates/templates-add.php:25
+#: templates/templates-edit.php:36
+#@ estis_pn_translate
+msgid "Template was successfully created."
+msgstr ""
+
+#: templates/templates-add.php:40
+#: templates/templates-edit.php:61
+#@ estis_pn_translate
+msgid "Click here"
+msgstr ""
+
+#: templates/templates-add.php:64
+#: templates/templates-edit.php:75
+#: templates/templates-preview.php:48
+#: templates/templates-settings.php:28
+#@ estis_pn_translate
+msgid "Name"
+msgstr ""
+
+#: templates/templates-add.php:70
+#: templates/templates-edit.php:81
+#@ estis_pn_translate
+msgid "Enter template heading."
+msgstr ""
+
+#: templates/templates-add.php:76
+#: templates/templates-edit.php:88
+#@ estis_pn_translate
+msgid "Please create body portion for your template."
+msgstr ""
+
+#: templates/templates-add.php:77
+#: templates/templates-edit.php:89
+#@ estis_pn_translate
+msgid "Keywords"
+msgstr ""
+
+#: templates/templates-add.php:83
+#@ estis_pn_translate
+msgid "Submit"
+msgstr ""
+
+#: templates/templates-add.php:86
+#: templates/templates-edit.php:98
+#@ estis_pn_translate
+msgid "Cancel"
+msgstr ""
+
+#: templates/templates-edit.php:14
+#: templates/templates-preview.php:24
+#@ estis_pn_translate
+msgid "This maket does not exist"
+msgstr ""
+
+#: templates/templates-edit.php:95
+#@ estis_pn_translate
+msgid "Update Template"
+msgstr ""
+
+#: templates/templates-preview.php:54
+#@ estis_pn_translate
+msgid "Select post for preview"
+msgstr ""
+
+#: templates/templates-preview.php:65
+#@ estis_pn_translate
+msgid "No Posts found!"
+msgstr ""
+
+#: templates/templates-preview.php:78
+#@ estis_pn_translate
+msgid "Back"
+msgstr ""
+
+#: templates/templates-preview.php:82
+#: templates/templates-settings.php:49
+#@ estis_pn_translate
+msgid "Edit"
+msgstr ""
+
+#: templates/templates-preview.php:86
+#@ estis_pn_translate
+msgid "Change Post"
+msgstr ""
+
+#: templates/templates-settings.php:35
+#@ estis_pn_translate
+msgid "Template Heading"
+msgstr ""
+
+#: templates/templates-settings.php:36
+#@ estis_pn_translate
+msgid "Action"
+msgstr ""
+
+#: templates/templates-settings.php:52
+#@ estis_pn_translate
+msgid "Preview"
+msgstr ""
+
+#: templates/templates-settings.php:55
+#@ estis_pn_translate
+msgid "Delete"
+msgstr ""
+
+#: templates/templates-settings.php:63
+#@ estis_pn_translate
+msgid "No records available"
+msgstr ""
+
+#: templates/templates-settings.php:75
+#@ estis_pn_translate
+msgid "Create New Template"
+msgstr ""
+
+#: templates/templates-settings.php:79
+#@ estis_pn_translate
+msgid "Delete All Templates"
+msgstr ""
+
